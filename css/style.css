@@ -1,0 +1,683 @@
+body {
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700px;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  li {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .container {
+    width: 1280px;
+    margin: auto;
+  }
+  /* header-start */
+  .top-header-bg{
+    background: #104180;
+    padding: 10px;
+  }
+  .top-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .top-icons{
+    display: flex;
+  }
+  .top-icons a .fa-solid {
+    color: #fff;
+    margin-left: 5px;
+  }
+  .top-icons a {
+    margin-left: 20px;
+    color: #fff;
+  }
+  /* header-end */
+  /* menu-bar-start */
+  .menu-bg{
+    background: #fff;
+    padding: 10px;
+    /* box-shadow: 0 0 10px #ccc; */
+  }
+  .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-bar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .fa-solid {
+    font-size: 20px;
+    color: #000;
+  }
+  .menu-bar a {
+    font-size: 16px;
+    color: #000;
+    padding: 14px;
+  }
+  .menu-bar .fa-solid:hover {
+    color: #fff;
+  }
+  .menu-bar li :hover {
+    background: #d02127;
+    color: #fff;
+  }
+.apply-now{
+    background: #d02127;
+    color: #fff !important;
+    margin-left: 10px;
+}
+.apply-now:hover{
+    background: #104180;
+    transition: all 0.5s ease;
+}
+  /* menu-bar-end */
+  /* slider-start */
+  .slider img{
+    height: 500px;
+    width: 100%;
+  }
+  .slider{
+    position: relative; 
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  .slider-text {
+    position: absolute;
+    text-align: center;
+    top: 34%;
+    left: 30%;
+    z-index: 9999;
+  }
+  .slider-text h1{
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .slider-text p{
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+    margin: 20px 0 40px 0;
+  }
+.apply-now1 {
+    background: #d02127;
+    padding: 14px 24px;
+    color: #fff;
+}
+.apply-now1:hover{
+    background: #104180;
+    transition: all 0.5s ease;
+}
+  /* slider-end */
+  /* PROCESSING STEPS-START */
+  .processing-steps h3{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 28px;
+    color: #d02127;
+  }
+  .processing-steps-box ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .processing-steps-box img{
+    width: 300px;
+    margin: 30px 0 100px 0;
+  }
+  /* PROCESSING STEPS-END */
+  /* Visa-Application-start */
+  .visa-application {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .right-pannal{
+    margin-left: 40px;
+  }
+  .right-pannal h3{
+    font-size: 28px;
+    color: #d02127;
+    margin-bottom: 30px;
+  }
+  .right-pannal p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  /* Visa Application-end */
+  /* Non-immigrant-start */
+  .Non-immigrant-bg{
+    background: #f7f8f9;
+    margin-bottom: 100px;
+  }
+  .Non-immigrant{
+    display: flex;
+    align-items: center;
+  }
+  .Non-immigrant-left h3{
+    font-size: 28px;
+    color: #d02127;
+    margin-bottom: 30px;
+    width: 76%;
+    line-height: 38px;
+  }
+  .Non-immigrant-left p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .Non-immigrant-right img{
+    width: 480px;
+    height: 550px;
+  }
+  /* Non-immigrant-end */
+  /* Receive-Passport-start */
+  .receive-passport{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+  .receive-passport-left img{
+    width: 480px;
+    height: 550px;
+  }
+  .receive-passport-right{
+    margin-left: 40px;
+  }
+  .receive-passport-right h3{
+    font-size: 28px;
+    color: #d02127;
+    margin-bottom: 30px;
+    line-height: 38px;
+  }
+  .receive-passport-right p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  /* Receive-Passport-end */
+  /* footer-start */
+  .footer-images {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    color: #fff;
+    display: block;
+    position: relative;
+    z-index: 1;
+  }
+  .footer-text{
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo1 h5{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  .logo1 .fa-solid {
+    color: #fff;
+    margin: 10px 5px 0 0;
+  }
+  .logo1 a{
+    color: #fff;
+  }
+  .apply a{
+   color: #fff;
+   font-size: 18px;
+   line-height: 30px;
+   margin-left: -30px;
+  }
+  .apply h4{
+    color: #d02127;
+  }
+  .apply a:hover{
+    color: #104180;
+  }
+  .apply img{
+    width: 200px;
+  }
+  /* footer-end */
+  /* apply-now-start */
+  .appltnow {
+    background: #fff;
+    width: 100%;
+    max-width: 1000px;
+    z-index: 9999;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 3% 0 3% 18%;
+    box-shadow: 0 0px 12px rgb(0 0 0 / 40%);
+  }
+  .form1 label {
+    margin-bottom: 30px;
+    margin-right: 138px;
+  }
+  .form2 label {
+    margin-bottom: 30px;
+    margin-right: 140px;
+  }
+  .form3 label {
+    margin-bottom: 30px;
+    margin-right: 82px;
+  }
+  .form4 label {
+    margin-bottom: 30px;
+    margin-right: 91px;
+  }
+  .form5 label {
+    margin-bottom: 30px;
+    margin-right: 91px;
+  }
+  .form6 label {
+    margin-bottom: 30px;
+    margin-right: 31px;
+  }
+  .form7 label {
+    margin-bottom: 30px;
+    margin-right: 111px;
+  }
+  .form8 label {
+    margin-bottom: 30px;
+    margin-right: 47px;
+  }
+  .form9 label {
+    margin-bottom: 30px;
+    margin-right: 91px;
+  }
+  .form10 label {
+    margin-bottom: 30px;
+    margin-right: 46px;
+  }
+  .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  .input1 {
+    padding: 10px 0px 10px 12px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    color: #666666;
+    background: #d9d9d9;
+    outline: none;
+  }
+  .header-bg {
+    background: #fff;
+    padding: 10px;
+  }
+  .submit-btn {
+    background: #d02127;
+    padding: 16px 20px;
+    border-radius: 8px;
+    color: #fff;
+  }
+  /* apply-now-end */
+  /* visatype-start */
+.visatype{
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0px 12px rgb(0 0 0 / 40%);
+}
+.visatype h3{
+  font-size: 38px;
+  line-height: 40px;
+  color: #d02127;
+  margin-bottom: 20px;
+}
+.visatype p{
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  border-bottom: #000 solid 2px;
+}
+.visatype h4{
+  font-size: 20px;
+  line-height: 40px;
+  color: #666666;
+  border-bottom: #666666 solid 1px;
+  padding-bottom: 20px;
+}
+/* visatype-end */
+/* documentrequired-start */
+.documentrequired{
+  display: flex;
+  margin: 20px 0;
+}
+.documentrequired img{
+  margin-right: 60px;
+}
+.documentrequired h3{
+  font-size: 28px;
+  line-height: 40px;
+  color: #d02127;
+  margin-bottom: 20px;
+}
+.documentrequired p{
+  font-size: 16px;
+  line-height: 24px;
+}
+/* documentrequired-end */
+/* payment-start */
+.payment h3{
+  font-size: 28px;
+  line-height: 40px;
+  color: #d02127;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.payment-bg{
+  background: #fff;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0px 12px rgb(0 0 0 / 40%);
+  margin-left: 25%;
+  text-align: center;
+}
+.pay label{
+  margin: 20px 10px 20px 0 ;
+}
+.payment-btn {
+  background: #d02127;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+/* payment-end */
+/* contact-us-start */
+.contact-us h3{
+  font-size: 28px;
+  line-height: 40px;
+  color: #d02127;
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+.contact-us-bg {
+  background: #fff;
+  width: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0px 12px rgb(0 0 0 / 40%);
+  margin-left: 25%;
+  text-align: center;
+}
+.contact-us-bg h6{
+  font-size: 22px;
+  margin-bottom: 20px;
+  border-bottom: #666666 solid 1px;
+  padding-bottom: 20px;
+}
+.contact-us-input{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.input2 {
+  padding: 10px 0px 10px 12px;
+  width: 280px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  color: #666666;
+  background: #d9d9d9;
+  outline: none;
+  margin-bottom: 20px;
+}
+.form-grup {
+  padding: 16px 0px 20px 10px;
+  width: 590px;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  color: #666666;
+  background: #d9d9d9;
+  outline: none;
+}
+ .menuicon{
+  display: none;
+ }
+ .close{
+  display: none;
+ }
+ .modal-mobile{
+  display: none;
+ }
+/* contact-us-end */
+.overlay-mobile{
+  display: none;
+}
+
+
+/* mobail-responcive-start */
+@media screen and (max-width: 767px){
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  .close{
+    display: block;
+  }
+  .modal-mobile{
+    display: block;
+  }
+  .modal-mobile{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    width: 80%;
+    height: 50%;
+    z-index: 99999;
+  }
+  .overlay {
+    display: block;
+  }
+  .mobile-menubar li{
+    margin: 20px 0 30px 0;
+  }
+ .top-icons{
+  display: none;
+ }
+.top-header img{
+  margin-left: 65%;
+}
+.menu-bar{
+  display: none;
+}
+.logo img{
+  width: 150px;
+}
+.menuicon{
+  display: block;
+}
+.slider-text{
+  left: 0;
+  top: 20%;
+}
+.slider-text h1{
+  font-size: 34px;
+}
+.slider-text p {
+  font-size: 20px;
+}
+.processing-steps h3 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+.processing-steps-box ul{
+  flex-wrap: wrap;
+}
+.processing-steps-box img{
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+.processing-steps-box li{
+  width: 53%;
+  margin-left: -32px;
+}
+.visa-application{
+  flex-direction: column-reverse;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.left-pannal img{
+  width: 100%;
+}
+.right-pannal{
+  margin-left: 0;
+}
+.right-pannal h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.right-pannal p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.Non-immigrant{
+  flex-direction: column;
+}
+.Non-immigrant-left h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+  width: 98%;
+  margin-top: 20px;
+}
+.Non-immigrant-left p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.Non-immigrant-right img{
+  width: 100%;
+  height: 100%;
+}
+.receive-passport{
+  flex-direction: column;
+}
+.receive-passport-left img{
+  width: 100%;
+  height: 100%;
+}
+.receive-passport-right{
+  margin-left: 0;
+}
+.receive-passport-right h3{
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+.receive-passport-right p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.Non-immigrant-bg{
+  margin-bottom: 50px;
+}
+.footer-text{
+  flex-direction: column;
+}
+.logo2 img{
+  width: 200px;
+  margin: 10px 0  0 10px;
+}
+.visatype h3 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.visatype p{
+  font-size: 14px;
+  line-height: 20px;
+}
+.documentrequired{
+  flex-direction: column-reverse;
+}
+.documentrequired h3 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.documentrequired p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.documentrequired img{
+  width: 100%;
+}
+.payment-bg{
+  margin-left: 0;
+  width: 100%;
+}
+.payment h3 {
+  font-size: 24px;
+  margin: 30px 0 14px 0; 
+}
+.contact-us-bg{
+  width: 100%;
+  margin-left: 0;
+}
+.form-grup{
+  width: 88%;
+}
+.contact-us-input{
+  flex-direction: column;
+}
+.logo1 h5 {
+ font-size: 20px;
+ margin-bottom: 10px;
+}
+.apply h4 {
+  margin-top: 20px;
+}
+.apply a{
+  font-size: 14px;
+}
+.overlay-mobile{
+  background: rgba(0,0,0,.5);
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9999;
+}
+.mobile-menubar li a{
+  color: #000;
+}
+}
+/* mobail-responcive-end */
